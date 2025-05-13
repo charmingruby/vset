@@ -1,3 +1,4 @@
+```json
 {
     "workbench.productIconTheme": "fluent-icons",
     "symbols.hidesExplorerArrows": false,
@@ -66,10 +67,11 @@
     "custom-ui-style.electron": {
         "frame": false,
         "transparent": true,
-        "opacity": 0.9,
+        "opacity": 0.9
     },
     "workbench.activityBar.orientation": "vertical",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorBlinking": "phase",
     "workbench.colorTheme": "Min Dark"
 }
+```
