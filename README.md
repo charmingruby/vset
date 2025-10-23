@@ -3,8 +3,9 @@
   "workbench.productIconTheme": "fluent-icons",
   "symbols.hidesExplorerArrows": false,
   "http.proxySupport": "off",
+  "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.fontSize": 12,
+  "editor.fontSize": 13,
   "terminal.integrated.fontSize": 13,
   "editor.lineHeight": 24,
   "editor.hideCursorInOverviewRuler": true,
@@ -47,21 +48,27 @@
     "vscode-kubernetes.helm-path-mac": "/Users/gustavodias/.vs-kubernetes/tools/helm/darwin-arm64/helm",
     "vscode-kubernetes.minikube-path-mac": "/Users/gustavodias/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
   },
-  "debug.disassemblyView.showSourceCode": false,
-  "files.associations": {
-    "*.go.tpl": "go"
-  },
   "git.mergeEditor": true,
   "editor.renderControlCharacters": false,
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "workbench.editor.editorActionsLocation": "titleBar",
-  "workbench.iconTheme": "flow-dark",
+  "workbench.iconTheme": "symbols",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "phase",
   "workbench.startupEditor": "none",
   "docker.extension.enableComposeLanguageServer": false,
-  "workbench.colorTheme": "Field Lights"
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "workbench.colorTheme": "Dracula Pro (Van Helsing)",
+  "workbench.activityBar.location": "top"
 }
 ```
