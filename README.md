@@ -15,7 +15,7 @@
   "editor.minimap.enabled": false,
   "notebook.formatOnSave.enabled": true,
   "editor.formatOnSave": true,
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": false,
   "window.titleBarStyle": "native",
   "window.zoomLevel": 0.9,
   "window.commandCenter": false,
@@ -69,6 +69,6 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "workbench.colorTheme": "Dracula Pro (Van Helsing)",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "bottom"
 }
 ```
